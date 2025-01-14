@@ -4,13 +4,13 @@ Bu, Covey Matrisi kullanarak görev yönetimini ve Pomodoro Zamanlayıcısını 
 
 Özellikler
 
-- **Covey Matrisi:** Görevleri önem ve aciliyet durumlarına göre dört bölüme ayırın.
-- **Görev Yönetimi:** Görev ekleme, silme ve güncelleme. Görevler için notlar, tarih ve tekrar seçenekleri ekleyin.
-- **Pomodoro Zamanlayıcı:** Pomodoro seansları, kısa molalar ve uzun molalar için zamanlayıcılar içerir.
-- **Görev Filtreleme:** Bugünkü görevler, bu haftaki görevler, bu ayki görevler, tamamlanmamış görevler ve daha fazlası gibi çeşitli kriterlere göre görevleri filtreleyin.
-- **Görev İlerlemesi:** Her görevin ilerlemesini izleyin ve %25'lik artışlarla güncelleyin.
-- **Bildirimler:** Pomodoro seansları tamamlandığında bildirim alın.
-- **Veri Sürekliliği:** Görevleri JSON dosyasına kaydedin ve yükleyin.
+- Covey Matrisi: Görevleri önem ve aciliyet durumlarına göre dört bölüme ayırın.
+- *Görev Yönetimi: Görev ekleme, silme ve güncelleme. Görevler için notlar, tarih ve tekrar seçenekleri ekleyin.
+- Pomodoro Zamanlayıcı: Pomodoro seansları, kısa molalar ve uzun molalar için zamanlayıcılar içerir.
+- Görev Filtreleme: Bugünkü görevler, bu haftaki görevler, bu ayki görevler, tamamlanmamış görevler ve daha fazlası gibi çeşitli kriterlere göre görevleri filtreleyin.
+- Görev İlerlemesi: Her görevin ilerlemesini izleyin ve %25'lik artışlarla güncelleyin.
+- Bildirimler: Pomodoro seansları tamamlandığında bildirim alın.
+- Veri Sürekliliği Görevleri JSON dosyasına kaydedin ve yükleyin.
 
 Gereksinimler
 
@@ -22,16 +22,15 @@ Gereksinimler
 - `datetime` modülü
 - `json` modülü
 - `os` modülü
+ Kurulum
 
-## Kurulum
-
-1. **Depoyu klonlayın:**
+1. Depoyu klonlayın:
     ```sh
     git clone https://github.com/kullanici-adi/covey-matrix-pomodoro.git
     cd covey-matrix-pomodoro
     ```
 
-2. **Gerekli kütüphaneleri yükleyin:**
+2. Gerekli kütüphaneleri yükleyin:
     ```sh
     pip install tkcalendar plyer
     ```
@@ -64,14 +63,13 @@ Kullanım
     - Görevler otomatik olarak mevcut dizindeki `tasks.json` dosyasına kaydedilir.
     - Uygulama başlatıldığında görevler `tasks.json` dosyasından yüklenir.
 
-## Dosya Yapısı
+Dosya Yapısı
 
 - `covey_matrix_pomodoro.py`: Covey Matrix ve Pomodoro Zamanlayıcı mantığını içeren ana uygulama dosyası.
 - `tasks.json`: Görevlerin kalıcı olarak saklandığı JSON dosyası.
 
 
 
-Katkıda Bulunma
 
 1. Depoyu forklayın.
 2. Özellik veya hata düzeltmesi için yeni bir dal oluşturun.
