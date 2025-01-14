@@ -1,0 +1,24 @@
+{
+    "Önemli/Acil": [
+        {
+            "title": "ÖDEV",
+            "date": "1/14/25",
+            "note": "",
+            "recurrence": "Tekrar Yok",
+            "completed": true,
+            "progress": 100
+        }
+    ],
+    "Önemsiz/Acil": [],
+    "Önemli/Acil Değil": [
+        {
+            "title": "SINAV",
+            "date": "2/11/25",
+            "note": "KİTABA BAK",
+            "recurrence": "Tekrar Yok",
+            "completed": false,
+            "progress": 50
+        }
+    ],
+    "Önemsiz/Acil Değil": []
+}
