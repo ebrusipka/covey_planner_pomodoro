@@ -26,7 +26,7 @@ Gereksinimler
 
 1. Depoyu klonlayın:
     ```sh
-    git clone https://github.com/kullanici-adi/covey-matrix-pomodoro.git
+    git clone https://github.com/ebrusipka/covey-matrix-pomodoro.git
     cd covey-matrix-pomodoro
     ```
 
