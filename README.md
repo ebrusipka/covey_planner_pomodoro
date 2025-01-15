@@ -26,8 +26,7 @@ Gereksinimler
 
 1. Depoyu klonlayın:
     ```sh
-    git clone https://github.com/ebrusipka/covey-matrix-pomodoro.git
-    cd covey-matrix-pomodoro
+ https://github.com/ebrusipka/covey_planner_pomodoro/blob/main/covey_planner_pomodoro.py
     ```
 
 2. Gerekli kütüphaneleri yükleyin:
@@ -71,8 +70,8 @@ Dosya Yapısı
 
 
 
-1. Depoyu forklayın.
+1. Depoyu kopyalayın.
 2. Özellik veya hata düzeltmesi için yeni bir dal oluşturun.
 3. Değişikliklerinizi yapın.
-4. Bir pull request gönderin.
+
 
